@@ -1,0 +1,123 @@
+.bg-theme-color {
+  background-color: var(--primary-color);
+}
+
+body {
+    overflow-x: hidden;
+  }
+
+@media screen and (min-width: 768px){
+  .sidebar{
+    width: 250px;
+    overflow-y: auto;
+    position: fixed;
+  }
+
+  .sidebar.open{
+    min-height: 100vh;
+  }
+
+  .sp-font.fs-3{
+    font-size: 1.6rem !important;
+  }
+}
+
+@media (max-width: 576px){
+  .sidebar.open{
+    position: static;
+  }
+
+  .sidebar.closed{
+    position: fixed;
+    z-index: 1;
+  }
+
+  .add-div{
+    margin: 2rem;
+  }
+
+  .profile-image{
+    max-width: 140px !important;
+  }
+}
+
+.nav-toggler {
+  transition: transform 0.15s ease-in-out;
+}
+
+.profile-image{
+  max-width: 160px;
+}
+
+.tagline{
+  font-size: 0.86rem;
+}
+
+.icon-box {
+  height: 1.9rem;
+  width: 1.9rem;
+  border-radius: 50%; /* Adjust border-radius as needed */
+  text-align: center;
+  padding: 1px;
+  background-color: white;
+}
+
+.icon-box:hover{
+  background-color: rgba(255, 255, 255, 0.788);
+  transition: 200ms ease-in;
+}
+
+.sp-font{
+  font-family: 'Karfil', sans-serif;
+} 
+
+.nav-item .nav-link.active{
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-item .nav-link:hover{
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-nav{
+  margin: 2rem;
+}
+
+.home .nav-link{
+  color: white;
+}
+
+.home .nav-link.active{
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.truncate-text {
+  max-width: 200px; /* Adjust based on your design */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hire-me-btn {
+  background-color: #fff;
+  color: #16316F;
+  border: #16316F solid 1px;
+  transition: background-color 0.5s ease-in;
+}
+
+.hire-me-btn:hover {
+  background-color: var(--primary-color);
+  color: white;
+  border: white solid 1px;
+}
+
+.more-nav-link:hover {
+  background-color: var(--primary-color);
+  color: #ffffff !important;
+  transition: background-color 0.5s ease-in;
+}
+
+.sidebar-intro span {
+  font-weight: bold !important;
+  color: #16316F;
+}

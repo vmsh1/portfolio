@@ -1,0 +1,56 @@
+.project-meta {
+    border: 1px solid rgba(0, 0, 0, 0.025);
+    font-size: 0.875rem;
+}
+
+.project-meta .client-name {
+    font-size: 1.5rem;
+}
+
+.project-meta .client-meta {
+    font-size: 1rem;
+}
+
+.project-meta .subheading {
+    font-size: 1rem;
+}
+/* 
+.project-thumb {
+    height: 300px;
+} */
+
+.metric .inner {
+    border: 1px solid rgba(0, 0, 0, 0.025);
+    height: 100%;
+}
+
+.metric-name {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.metric-data {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.metric-data .unit {
+    font-size: 1rem;
+    color: #8f8f8f;
+}
+
+.metric-desc {
+    font-size: 0.875rem;
+    color: #8f8f8f;
+}
+
+.solution-img{
+    max-height: 350px;
+}
+
+@media (min-width: 768px) {
+    .solution-img{
+        height: 350px;
+        width: 600px;
+    }
+}

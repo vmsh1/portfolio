@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Real-time Piano 🎹 Chord Detection and Visualization with Kafka Streams: Revolutionizing Music 🎶 Learning",
+        "thumb": "https://miro.medium.com/v2/resize:fit:2000/format:webp/1*C7-UD3qKUMUhHiJyOLZ6wQ.png",
+        "intro": "Explore how Kafka Streams enables real-time piano chord detection and visualization, transforming music learning experiences.",
+        "url": "https://medium.com/@vamshi6g/real-time-piano-chord-detection-and-visualization-with-kafka-streams-revolutionizing-music-71ea3f5e3d6a",
+        "pbdate": "05-27-2024"
+    },
+    {
+        "title": "Understanding: Apache Kafka",
+        "thumb": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*6vpG-K-xiOPp6RWSOcq5bw.jpeg",
+        "intro": "Apache Kafka revolutionizes real-time data exchange with topics and partitions, ensuring scalability and fault tolerance for modern, data-intensive applications.",
+        "url": "https://medium.com/@vamshi6g/understanding-apache-kafka-4a5a1d2d0739",
+        "pbdate": "01-30-2024"
+    }
+]

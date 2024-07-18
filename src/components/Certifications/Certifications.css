@@ -1,0 +1,49 @@
+.cert-card {
+    background: var(--shadow-color);
+    border: 1px solid rgba(0, 0, 0, 0.025);
+    height: 400px;
+    border-radius: 0;
+}
+
+.cert-card .card-title {
+    font-size: 1.125rem;
+}
+
+.cert-card .card-title .theme-link:hover {
+    color: var(--hover-color);
+}
+
+.cert-card .card-text {
+    font-size: 0.875rem;
+}
+
+.cert-card .card-footer {
+    border-top: none;
+    background: none;
+    padding-top: 0;
+}
+
+.cert-card img{
+    height: 200px;
+    object-fit: contain;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: rgba(41, 41, 41, 0.3);
+    border: none;
+}
+
+.carousel-indicators .active {
+    background-color: #292929;
+    border: none;
+}
+
+.carousel-item .row {
+    display: flex;
+    justify-content: center;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}

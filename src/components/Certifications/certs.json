@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Confluent Certified Developer for Apache Kafka",
+        "expiry": "March 03, 2026",
+        "desc": "Certifies skills in developing and maintaining applications using Confluent Kafka, emphasizing proficiency in Kafka architecture, producers and consumers, Kafka Streams, and integration with other systems. This certification validates expertise in real-time data streaming and event-driven architecture.",
+        "link": "https://www.credential.net/1c20eaa0-dfe1-45a8-bd38-4e734fadd232",
+        "img": "images/confluentkafkabadge.png"
+    },
+    {
+        "title": "Confluent Fundamentals Accreditation",
+        "expiry": "Does not expire",
+        "desc": "Certifies foundational knowledge and skills in using Confluent and Apache Kafka, focusing on core concepts, architecture, and basic operations of Kafka clusters.",
+        "link": "https://www.credential.net/0db31755-8dcb-4a1d-a3b7-815161676846",
+        "img": "images/confluentkafkaaccreditionbadge.png"
+    },
+    {
+        "title": "AWS Certified Solutions Architect Associate",
+        "expiry": "Dec 23, 2026",
+        "desc": "Validates skills in designing scalable systems on AWS, emphasizing architectural best practices for secure, reliable, and cost-efficient solutions. This certification demonstrates proficiency in leveraging a wide range of AWS services to architect high-performance infrastructure.",
+        "link": "https://www.credly.com/badges/535b7c16-0026-418c-b614-e8f00fb66201",
+        "img": "https://images.credly.com/size/680x680/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
+    },        
+    {
+        "title": "AWS Certified Developer Associate",
+        "expiry": "Jan 31, 2027",
+        "desc": "Certifies expertise in developing applications on AWS, focusing on serverless architecture, AWS Lambda functions, DynamoDB for NoSQL database management, and API integrations. This certification validates proficiency in deploying scalable and resilient applications on AWS cloud infrastructure.",
+        "link": "https://www.credly.com/badges/21c24970-4c98-4e04-98fe-b5cca7c2b8d5",
+        "img": "https://images.credly.com/size/680x680/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png"
+    }
+]

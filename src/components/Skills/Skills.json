@@ -1,0 +1,42 @@
+[
+    {
+        "title": "HTML, CSS, TypeScript, & JavaScript",
+        "description": "Proficient in writing clean JavaScript, crafting semantic HTML markup, and creating visually appealing responsive CSS for building dynamic web applications.",
+        "icon": "JS"
+    },
+    {
+        "title": "React & Angular",
+        "description": "Experienced in developing scalable web apps with Angular, leveraging its powerful features and modular architecture. Proficient in creating reusable UI components with React.",
+        "icon": "React"
+    },
+    {
+        "title": "Bootstrap & Figma",
+        "description": "Experienced in rapidly building responsive, visually appealing UIs with Bootstrap's components, and skilled in using Figma for UI/UX design and prototyping.",
+        "icon": "BOOT"
+    },    
+    {
+        "title": "Apache Kafka",
+        "description": "Adept at utilizing Apache Kafka for building real-time data pipelines and streaming applications to enhance data processing and integration.",
+        "icon": "Kafka"
+    },
+    {
+        "title": "Java, Python, & SprinBoot",
+        "description": "Proficient in Java and SpringBoot for developing scalable microservices & Algorithms, alongside expertise in Python for data analysis.",
+        "icon": "Python"
+    },
+    {
+        "title": "MySQL, Postgres, & Redis",
+        "description": "Skilled in writing optimized SQL queries, managing PostgreSQL, MySQL databases.",
+        "icon": "SQL"
+    },
+    {
+        "title": "Amazon Web Services",
+        "description": "Certified AWS Solutions Architect and Developer Associate with hands-on experience in deploying & managing applications using services like EC2, S3, and Lambda.",
+        "icon": "AWS"
+    },
+    {
+        "title": "Kubernetes & Docker",
+        "description": "Experienced in containerizing applications with Docker and orchestrating deployments using Kubernetes for efficient resource utilization and high availability.",
+        "icon": "KUBE"
+    }
+]

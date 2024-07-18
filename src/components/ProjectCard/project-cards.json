@@ -1,0 +1,91 @@
+[
+    {
+        "id": 1,
+        "title": "Plotting Locations on Google Maps",
+        "description": "Visualize geographical locations retrieved from a Redis database on Google Maps using JavaScript, showcasing efficient data handling and animation techniques.",
+        "tools": "Tools: JavaScript, Google Maps API, Redis, Spring Boot",
+        "icon": "images/map-plotting.png",
+        "filters": [
+            "frontend",
+            "web development",
+            "maps",
+            "API",
+            "JavaScript"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Real-time Piano 🎹 Chord Detection and Visualization with Kafka Streams: Revolutionizing Music 🎶 Learning",
+        "description": "A real-time music streaming platform utilizing Apache Kafka to store and visualize MIDI events from, for live collaboration.",
+        "tools": "Tools: Apache Kafka, React.js, WebSockets, Java",
+        "icon": "images/piano.png",
+        "filters": [
+            "frontend",
+            "real-time",
+            "streaming",
+            "webapp",
+            "kafka"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Survey-Form Web Application",
+        "description": "Built and deployed a microservices-based survey form application using CI/CD pipeline on AWS EC2.",
+        "tools": "Tools: Angular, Springboot, Jenkins, AWS, Kubernetes, Docker, Github",
+        "icon": "images/form.jpg",
+        "filters": [
+            "webapp",
+            "frontend"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Centroid-Based Clustering Algorithm for Geospatial Coordinates",
+        "description": "Developed an algorithm to evenly distribute coordinates around a central location along cardinal directions, inspired by Google's ML centroid-based approach.",
+        "tools": "Tools: Java, Google Maps API, JavaScript, Geospatial Analysis",
+        "icon": "images/GeoSpatialAlgorithmThumb.png",
+        "filters": [
+            "algorithm",
+            "geospatial",
+            "machinelearning"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Privacy-Preserving Name Classification",
+        "description": "Developed a differentially-private LSTM model using PyTorch and Opacus for name classification, ensuring data privacy during training.",
+        "tools": "Tools: PyTorch, Opacus, LSTM",
+        "icon": "images/dplstm.png",
+        "filters": [
+            "ml",
+            "privacy",
+            "pytorch"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Personal Portfolio Website",
+        "description": "A modern and responsive portfolio website using React to showcase my projects, skills, and experience as a Developer.",
+        "tools": "Tools: React, HTML, CSS, JavaScript",
+        "icon": "images/portfolio-home.png",
+        "filters": [
+            "web",
+            "frontend",
+            "react"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Banking Transactions with Kafka Streams: Enhancing Financial Operations",
+        "description": "Real-time banking application utilizing Apache Kafka Streams to perform deposit, withdraw, and balance inquiry operations.",
+        "tools": "Tools: Apache Kafka, Java, Spring Boot",
+        "icon": "images/bank.jpg",
+        "filters": [
+            "backend",
+            "real-time",
+            "streaming",
+            "webapp",
+            "kafka"
+        ]
+    }    
+]

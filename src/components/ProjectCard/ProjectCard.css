@@ -1,0 +1,140 @@
+.project-cards {
+    position: relative;
+    height: auto;
+}
+
+.isotope-item {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.project-card {
+    border-radius: 20;
+    background: var(--shadow-color);
+    border: 1px solid rgba(0, 0, 0, 0.025);
+    position: relative;
+    max-height: 200px;
+}
+
+.project-cards .isotope-item {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.project-cards .isotope-item.exiting {
+    opacity: 0;
+    transform: scale(0.9);
+}
+
+.project-cards .isotope-item.entering {
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.project-cards .isotope-item.entered {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+.project-card .card-img-holder {
+    height: 200px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.project-card .card-img {
+    border-radius: 0;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-card .card-title {
+    font-size: 1.110rem;
+}
+
+@media (max-width: 568px){
+    .project-card{
+        height: 100%;
+        max-height: unset;
+        border-radius: 0;
+    }
+
+    .project-card .card-img-holder{
+        height: auto;
+        max-height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .project-card .card-img{
+        height: auto;
+        width: 100%;
+    }
+}
+
+a.theme-link {
+    color: #292929;
+    text-decoration: underline;
+    text-decoration-color: rgba(41, 41, 41, 0.3);
+}
+
+.project-card .card-text {
+    font-size: 0.875rem;
+}
+
+/* .card-text:last-child {
+    margin-bottom: 0;
+} */
+
+small, .small {
+    font-size: 0.75rem;
+}
+
+.project-card .link-mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    transition: all 0.4s ease-in-out;
+}
+
+.project-card .link-mask .link-mask-link {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.project-card .link-mask-text {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    display: none;
+}
+
+.project-card .link-mask-text .btn {
+    top: 50%;
+    margin-top: -20px;
+    position: relative;
+}
+
+.project-card:hover .link-mask {
+    visibility: visible;
+    background: rgba(194, 246, 255, 0.481);
+}
+
+.project-card:hover .link-mask-text {
+    display: block;
+}

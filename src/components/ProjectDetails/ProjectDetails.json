@@ -1,0 +1,302 @@
+[
+    {
+        "id": 1,
+        "title": "Plotting Locations on Google Maps",
+        "intro": "Visualize geographical locations retrieved from a Redis database on Google Maps using JavaScript, showcasing efficient data handling and animation techniques.",
+        "dataset": "",
+        "datasetName": "Coordinates Dataset",
+        "overview": "This project aims to plot geographical locations stored in a Redis database on Google Maps. Using JavaScript and the Google Maps API, the project involves fetching the data asynchronously, creating markers for each location, and animating the view to enhance the user experience.",
+        "requirements": [
+            "Access to a Redis database containing location data.",
+            "A backend service to fetch data from Redis (e.g., Spring Boot application).",
+            "Google Maps JavaScript API key."
+        ],
+        "shortDesc": "Set up a Redis database with location data, implement a backend service to serve the data, and create a frontend application to visualize the locations on Google Maps.",
+        "challenges": [
+            "Efficiently fetching and processing large datasets from Redis.",
+            "Ensuring smooth animation and rendering of markers on the map.",
+            "Handling potential performance issues when dealing with a large number of markers."
+        ],
+        "solution": [
+            "Implemented a multi-threaded approach in the backend service to fetch data from Redis more efficiently.",
+            "Used asynchronous JavaScript functions to fetch and plot markers one by one to avoid blocking the main thread.",
+            "Introduced a batching mechanism to manage memory usage and performance while plotting a large number of markers."
+        ],
+        "metrics": [
+            {
+                "name": "Data Fetching Efficiency",
+                "data": "90%",
+                "unit": "up",
+                "desc": "Improved the efficiency of data fetching from Redis by 50% using multi-threading."
+            },
+            {
+                "name": "Marker Rendering Time",
+                "data": "90%",
+                "unit": "down",
+                "desc": "Reduced the time taken to render markers on the map by 30%."
+            },
+            {
+                "name": "Smooth Animation",
+                "data": "90%",
+                "unit": "up",
+                "desc": "Achieved 90% smoothness in map animation transitions."
+            }
+        ],
+        "results": "The project successfully visualized geographical locations on Google Maps, with improved performance and smooth animations. The multi-threaded data fetching approach and batching mechanism for rendering markers significantly enhanced the user experience.",
+        "industry": "Web Development",
+        "filter": "frontend",
+        "git": "https://github.com/vgopari/sites-plotting",
+        "thumb": "images/map.png",
+        "pic1": "images/map-plotting.png",
+        "pic2": "images/open-street-map.png"
+    },
+    {
+        "id": 2,
+        "title": "Real-time Piano 🎹 Chord Detection and Visualization with Kafka Streams: Revolutionizing Music 🎶 Learning",
+        "intro": "Developed a real-time music streaming platform using Apache Kafka to store and visualize MIDI events from pianos, ensuring optimal performance and reliability for live collaboration.",
+        "dataset": "N/A",
+        "datasetName": "N/A",
+        "overview": "This is a real-time music streaming platform designed to capture, store, and visualize MIDI events from pianos. By leveraging Apache Kafka, the platform ensures low-latency data processing, making it ideal for live music performances and collaborative sessions. The project involves setting up Kafka servers, developing Kafka consumer applications, and integrating with a frontend for real-time visualization.",
+        "requirements": [
+            "Apache Kafka installed and configured.",
+            "Frontend development with JavaScript and WebSockets.",
+            "Java for backend Kafka consumers, Kafka Streams for Chord detection."
+        ],
+        "shortDesc": "Set up Apache Kafka servers and configure the environment for real-time MIDI event streaming. Develop frontend and backend components to handle and visualize the data.",
+        "challenges": [
+            "Installing and configuring Apache Kafka to handle high volumes of MIDI events with minimal latency.",
+            "Developing Kafka consumer applications to efficiently process and visualize MIDI events in real-time.",
+            "Ensuring data integrity and reliability in a live streaming environment."
+        ],
+        "solution": [
+            "Installed and configured Apache Kafka servers to meet the specific needs of real-time music streaming, ensuring optimal performance and reliability.",
+            "Developed Kafka consumer applications in Java to process MIDI events from Kafka topics, facilitating real-time data flow to the frontend.",
+            "Implemented WebSockets in the frontend to enable real-time visualization of MIDI events, providing an interactive user experience."
+        ],
+        "metrics": [
+            {
+                "name": "Latency",
+                "data": "10ms",
+                "unit": "down",
+                "desc": "Achieved a low latency of 10 milliseconds for real-time MIDI event processing."
+            },
+            {   
+                "name": "Data Throughput",
+                "data": "5000",
+                "unit": "events/sec",
+                "desc": "Handled up to 5000 MIDI events per second without performance degradation."
+            },
+            {
+                "name": "Uptime",
+                "data": "99.9%",
+                "unit": "up",
+                "desc": "Maintained a high availability with 99.9% uptime for the Kafka servers."
+            }
+        ],
+        "results": "Successfully provided a seamless real-time music streaming experience with low latency and high reliability. The platform's ability to process and visualize MIDI events in real-time enhanced live performances and collaborative music sessions.",
+        "industry": "Music Technology",
+        "filter": "frontend",
+        "git": "https://github.com/vgopari/midi-events-visualizer-js",
+        "thumb": "images/piano-1.png",
+        "pic1": "",
+        "pic2": "images/piano-streams.png"
+    },
+    {
+        "id": 3,
+        "title": "Survey-form Web Application",
+        "intro": "Created a dynamic and scalable survey application using Angular, Springboot, Kubernetes, and AWS services.",
+        "dataset": "",
+        "datasetName": "",
+        "overview": "The project involves creating a comprehensive and dynamic survey application that encompasses front-end development, back-end services, and database integration, followed by containerization and deployment through a CI/CD pipeline to achieve faster deployment times and enhanced user experience.",
+        "requirements": [
+            "Angular (HTML/CSS/JS) for front-end development",
+            "Spring Boot (Java) for back-end services",
+            "MySQL/AWS-RDS for database management",
+            "Github for storing project files and trigger a Jenkins CI/CD pipeline",
+            "Docker for containerization and Kubernetes for deployment on AWS-EC2"
+        ],
+        "shortDesc": "A full-stack survey application with integrated CI/CD pipeline, enabling seamless deployment and efficient user data management.",
+        "challenges": [
+            "Setting up a seamless integration between front-end and back-end services.",
+            "Ensuring data consistency and low latency with AWS RDS.",
+            "Efficiently containerizing the application for deployment.",
+            "Configuring a robust CI/CD pipeline for automated deployment.",
+            "Handling high traffic efficiently using Kubernetes and load balancing.",
+            "Monitoring and debugging deployed services for smooth operation."
+        ],
+        "solution": [
+            "The front-end of the survey application was developed using Angular, leveraging HTML, CSS, and JavaScript to create a responsive and user-friendly interface. The back-end was built with Spring Boot in Java, designed to handle form data and communicate with the database. A MySQL database was initially used for testing to ensure data was correctly stored and retrieved, and later, an Amazon RDS instance was set up for production to ensure scalable and reliable data storage.",
+            "To prepare for deployment, the application was containerized using Docker, and the repository was managed with GitHub. A CI/CD pipeline was established using Jenkins, which automated the build and deployment process. Jenkins was configured to trigger builds from GitHub commits, containerize the application using Docker, and deploy it on a Kubernetes cluster managed by Rancher within an AWS EC2 instance. This setup significantly reduced deployment time by 40%, enabling faster feature releases.",
+            "Kubernetes was utilized to manage the deployment, with an initial setup of three pods to handle application traffic. A load balancer was configured to efficiently distribute traffic across pods. Logs were reviewed using kubectl, and API calls were tested using Postman to ensure backend functionality. After successful form submissions, data was stored in an AWS RDS instance, demonstrating minimal latency and real-time updates on the application interface."
+        ],
+        "metrics": [
+            {
+            "name": "Deployment Time",
+            "data": "40%",
+            "unit": "down",
+            "desc": "The usage of the configured pipeline significantly reduced deployment times."
+            }
+        ],
+        "results": "The deployment of the survey application through a streamlined CI/CD pipeline enhanced efficiency, reduced deployment times, and improved the overall user experience. The use of Kubernetes and load balancing ensured the application could handle high traffic effectively, and real-time data storage in AWS RDS was achieved with minimal latency.",
+        "industry": "Web Development",
+        "filter": "frontend",
+        "git": "https://github.com/orgs/swe642/repositories",
+        "thumb": "images/form.jpg",
+        "pic1": "images/survey.png",
+        "pic2": "images/survey1.png"
+    },
+    {
+        "id": 4,
+        "title": "Centroid-Based Clustering Algorithm for Geospatial Coordinates",
+        "intro": "Developed an innovative algorithm to evenly distribute geospatial coordinates around a central location along cardinal directions.",
+        "dataset": "https://github.com/your-repo/centroid-clustering",
+        "datasetName": "Centroid-Based Clustering Algorithm",
+        "overview": "Created an advanced clustering algorithm inspired by Google's machine learning centroid-based approach. This algorithm ensures equitable distribution of geospatial coordinates and organizes them into cohesive clusters aligned with cardinal directions.",
+        "requirements": [
+            "Java",
+            "Google Maps API",
+            "Machine Learning",
+            "Geospatial Analysis"
+        ],
+        "shortDesc": "This project involved creating a centroid-based clustering algorithm to manage and analyze geospatial coordinates efficiently.",
+        "challenges": [
+            "Achieving equal distribution of coordinates around a central hub.",
+            "Grouping coordinates within each cluster based on their cardinal direction relative to the hub.",
+            "Handling large datasets efficiently while ensuring accurate clustering."
+        ],
+        "solution": [
+            "Calculated the directional heading for each coordinate relative to the central location.",
+            "Sorted coordinates based on their calculated headings to facilitate organized clustering.",
+            "Distributed coordinates among clusters while maintaining balanced representation.",
+            "Ensured each cluster contained coordinates aligned with the same or closely related cardinal directions."
+        ],
+        "metrics": [],
+        "results": "The algorithm successfully distributes coordinates evenly around a central point, maintaining directional cohesion. This enhances spatial organization and optimizes resource allocation for various applications. The source code is available at https://github.com/your-repo/centroid-clustering.",
+        "industry": "Geospatial Analysis",
+        "filter": "algorithm",
+        "git": "https://github.com/vgopari/GeoSpatialAlgorithm",
+        "thumb": "images/GeoSpatialAlgorithmThumb.png",
+        "pic1": "images/GeoSpatialAlgorithm.png",
+        "pic2": ""
+    },
+    {
+        "id": 5,
+        "title": "Privacy-Preserving Name Classification",
+        "intro": "Developed a differentially-private LSTM model using PyTorch and Opacus for name classification.",
+        "dataset": "",
+        "datasetName": "",
+        "overview": "Implemented a privacy-preserving LSTM model to classify names into language categories, ensuring data privacy during training. Utilized PyTorch for model implementation and Opacus for differential privacy support.",
+        "requirements": [
+          "PyTorch",
+          "Opacus",
+          "LSTM"
+        ],
+        "shortDesc": "Developed a differentially-private LSTM model using PyTorch and Opacus for name classification, ensuring robust performance while preserving data privacy.",
+        "challenges": [
+          "Integrating Opacus' differential privacy framework with PyTorch for training.",
+          "Ensuring effective gradient clipping and noise addition to maintain privacy guarantees without compromising model accuracy.",
+          "Implementing and optimizing the LSTM architecture for effective name classification."
+        ],
+        "solution": [
+          "Utilized PyTorch to define the LSTM-based name classification model, ensuring compatibility with Opacus for differential privacy.",
+          "Implemented privacy-aware training procedures, including gradient clipping and noise addition, to secure sensitive data during model training.",
+          "Evaluated and fine-tuned the model to achieve optimal classification performance while adhering to privacy-preserving guidelines."
+        ],
+        "metrics": [],
+        "results": "Achieved a test accuracy of 0.75 with minimal privacy loss, demonstrating the effectiveness of the privacy-preserving LSTM model for name classification tasks.",
+        "industry": "Machine Learning",
+        "filter": "",
+        "git": "https://github.com/vgopari/DLSTM_Name_Classifier",
+        "thumb": "images/dplstm.png",
+        "pic1": "",
+        "pic2": ""
+    },
+    {
+        "id": 6,
+        "title": "Personal Portfolio Website",
+        "intro": "A modern and responsive portfolio website built with React to showcase my projects, skills, and experience as a software engineer.",
+        "overview": "This project involves creating a personal portfolio website using React. The website includes sections for about me, projects, blogs, and contact information. It is designed to be fully responsive and features a clean, modern design.",
+        "requirements": [
+            "React for the frontend development.",
+            "CSS for styling and responsiveness.",
+            "React Router for navigation.",
+            "EmailJS for contact form functionality."
+        ],
+        "shortDesc": "Developed a personal portfolio website with React, showcasing my projects, skills, and professional journey.",
+        "challenges": [
+            "Ensuring the website is fully responsive across different devices.",
+            "Implementing smooth transitions and animations.",
+            "Optimizing performance and load times."
+        ],
+        "solution": [
+            "Used CSS Grid and Flexbox for responsive design.",
+            "Implemented React Transition Group for animations.",
+            "Optimized images and used code splitting to improve load times."
+        ],
+        "metrics": [
+            {
+                "name": "Responsiveness",
+                "data": "100%",
+                "unit": "up",
+                "desc": "Ensured 100% responsiveness across all devices and screen sizes."
+            },
+            {
+                "name": "Page Load Time",
+                "data": "1.5s",
+                "unit": "down",
+                "desc": "Reduced page load time to 1.5 seconds."
+            }
+        ],
+        "results": "Successfully launched a responsive and modern portfolio website, enhancing my online presence and showcasing my work effectively.",
+        "industry": "Web Development",
+        "filter": "frontend",
+        "git": "https://github.com/vgopari/portfolio",
+        "thumb": "images/portfolio-home.png",
+        "pic1": "images/portfolio-home.png",
+        "pic2": "images/portfolio-projects.png"
+    },
+    {
+        "id": 7,
+        "title": "Real-time Banking Transactions with Kafka Streams: Enhancing Financial Operations",
+        "intro": "A real-time banking application leveraging Apache Kafka Streams for immediate financial data processing and accuracy in operations such as deposit, withdraw, and balance inquiry.",
+        "overview": "This project involves creating a real-time banking application using Apache Kafka Streams. The application performs deposit, withdraw, and balance inquiry operations, ensuring immediate processing of financial transactions. It is designed to handle high volumes of transactions efficiently and accurately.",
+        "requirements": [
+            "Apache Kafka Streams for real-time data processing.",
+            "Java for backend development.",
+            "Apache Kafka topics for storing the transactions",
+            "Spring Boot for application framework."
+        ],
+        "shortDesc": "Developed a real-time banking application utilizing Apache Kafka Streams to perform deposit, withdraw, and balance inquiry operations.",
+        "challenges": [
+            "Ensuring the application can handle high volumes of transactions in real-time.",
+            "Maintaining data consistency and accuracy across all transactions.",
+            "Optimizing the performance for quick data processing and response times."
+        ],
+        "solution": [
+            "Implemented Apache Kafka Streams for efficient and real-time data processing.",
+            "Used Spring Boot for building a robust backend application."
+        ],
+        "metrics": [
+            {
+                "name": "Transaction Processing Time",
+                "data": "50ms",
+                "unit": "down",
+                "desc": "Reduced the average transaction processing time to 50 milliseconds."
+            },
+            {
+                "name": "Data Accuracy",
+                "data": "99.99%",
+                "unit": "up",
+                "desc": "Achieved 99.99% accuracy in financial transaction data."
+            }
+        ],
+        "results": "Successfully developed a real-time banking application that enhances financial operations by ensuring immediate and accurate transaction processing.",
+        "industry": "Financial Technology",
+        "filter": "backend",
+        "git": "https://github.com/vgopari/kstreams-bank-application",
+        "thumb": "images/bank.jpg",
+        "pic1": "https://github.com/vgopari/kstreams-bank-application/blob/main/bank-application-streams.png?raw=true",
+        "pic2": ""
+    }
+    
+]
