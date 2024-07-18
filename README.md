@@ -19,7 +19,7 @@ This project involves creating a personal portfolio website using React. The web
 - **Form Handling**: EmailJS for handling contact form submissions.
   
 ## Live Demo
-Check out the live demo [here](https://vgopari.github.com/portfolio).
+Check out the live demo [here](https://vgopari.github.io/portfolio).
 
 
 ## Contact
